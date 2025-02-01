@@ -1,0 +1,77 @@
+#recommendation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#left-arrow, #right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#left-arrow:hover, #right-arrow:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+#left-arrow img, #right-arrow img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+#left-arrow:hover img, #right-arrow:hover img {
+    transform: scale(1.2);
+}
+
+.recommendation-card {
+    width: 100%;  /* The width will adjust to the parent container */
+    max-width: 600px; /* Set a maximum width for the card */
+    min-height: 400px; /* Set a fixed height for the card */
+    padding: 2rem; /* Add padding to the card */
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    transition: width 0.3s ease; /* Smooth transition for width */
+}
+
+.recommendation-card img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.recommendation-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.recommendation-card p {
+    color: #757575;
+    margin-bottom: 1rem;
+}
+
+.recommendation-card .quote {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #333;
+}
+
+#recommendation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
