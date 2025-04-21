@@ -20,7 +20,7 @@ window.addEventListener('scroll', () =>{
         // navLinks.classList.add('bg-white', 'shadow-sm', 'bg-opacity-50')
     }
 })
-
+//resume popup
 function openResumePopup() {
     document.getElementById("resumeModal").classList.remove("hidden");
     document.body.classList.add("overflow-hidden"); // Disable scrolling when modal is open
@@ -31,6 +31,7 @@ function closeResumePopup() {
     document.body.classList.remove("overflow-hidden"); // Re-enable scrolling when modal is closed
 }
 
+//recommendations
 const recommendations = [
     {
         quote: 'I am delighted to write a recommendation for Vandit Mehta, who served as a Data Engineer and QA Automation Intern at ALDO during Summer 2023. During his time with us, Vandit Mehta made a significant contribution to our quality assurance efforts, leaving a lasting impression with his dedication and enthusiasm. Vandit joined our team as an intern and quickly demonstrated a keen interest in learning and improving his skills in QA automation. I was his team lead when he joined us. He exhibited a strong work ethic and a thirst for knowledge, consistently seeking opportunities to contribute to our projects. Throughout his internship, Vandit showed a remarkable ability to adapt to new tools and technologies, often learning them faster than expected. He was particularly proficient in Python,AWS, and his commitment to staying up-to-date with industry trends was commendable. One of Vandit\'s standout qualities was his attention to detail. He was meticulous in identifying and reporting defects, ensuring that our products reached a high level of quality. His contributions were valuable in preventing issues from reaching our end users. Vandit was not only technically skilled but also a great team player. He was always ready to collaborate, ask questions, and learn from our experienced team members. His ability to work effectively in a team environment and take constructive feedback to improve his skills was highly appreciated. I have no doubt that he will continue to grow and excel in his career.',
